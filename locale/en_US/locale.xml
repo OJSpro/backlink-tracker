@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+<locale name="en_US" full_name="English">
+	<message key="plugins.generic.backlinkTracker.displayName">Backlink Tracker by OJSpro</message>
+	<message key="plugins.generic.backlinkTracker.description">Displays external references (backlinks) to articles from uploaded CSV data (SEMrush, Ahrefs, Google Search Console). Shows referring domains, anchor text, and reference targets on article pages.</message>
+
+	<message key="plugins.generic.backlinkTracker.settings.description">Backlink Tracker Settings</message>
+	<message key="plugins.generic.backlinkTracker.settings.help">Configure backlink tracking by uploading CSV data and managing URL redirect mappings.</message>
+
+	<message key="plugins.generic.backlinkTracker.settings.matchingSettings">Article Matching Settings</message>
+	<message key="plugins.generic.backlinkTracker.settings.repoGalleyLabel">Repository Galley Label</message>
+	<message key="plugins.generic.backlinkTracker.settings.repoGalleyLabelHelp">Enter the label used for repository/full-text galleys (e.g., REPO, Repository, Full Text). This helps the plugin match backlinks to both abstract and full-text URLs.</message>
+
+	<message key="plugins.generic.backlinkTracker.settings.blockedDomains">Domain Filtering</message>
+	<message key="plugins.generic.backlinkTracker.settings.blockedDomainsHelp">Enter domains to exclude from backlink display (one per line). Example: spamsite.com</message>
+
+	<message key="plugins.generic.backlinkTracker.settings.redirectMapping">URL Redirect Mapping</message>
+	<message key="plugins.generic.backlinkTracker.settings.redirectMappingHelp">Upload a CSV file mapping old URLs to new URLs after domain migration. Format: old_url,new_url</message>
+
+	<message key="plugins.generic.backlinkTracker.settings.useSiteWideData">Use site-wide data (shared across all journals)</message>
+	<message key="plugins.generic.backlinkTracker.settings.useSiteWideDataHelp">Enable this to share backlinks and redirect mappings across all journals. When enabled, uploading data to any journal will update it for all journals.</message>
+</locale>

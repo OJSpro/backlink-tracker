@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-24T12:00:00+00:00\n"
+"PO-Revision-Date: 2024-11-24T12:00:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.backlinkTracker.displayName"
+msgstr "Backlink Tracker by OJSpro"
+
+msgid "plugins.generic.backlinkTracker.description"
+msgstr "Displays external references (backlinks) to articles from uploaded CSV data (SEMrush, Ahrefs, Google Search Console). Shows referring domains, anchor text, and reference targets on article pages."
+
+msgid "plugins.generic.backlinkTracker.settings.description"
+msgstr "Backlink Tracker Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.help"
+msgstr "Configure backlink tracking by uploading CSV data and managing URL redirect mappings."
+
+msgid "plugins.generic.backlinkTracker.settings.gscSettings"
+msgstr "Google Search Console Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.journalSite"
+msgstr "Journal Site (OJS)"
+
+msgid "plugins.generic.backlinkTracker.settings.wordpressSite"
+msgstr "Repository Site (WordPress)"
+
+msgid "plugins.generic.backlinkTracker.settings.gscJournalUrl"
+msgstr "Journal Site URL"
+
+msgid "plugins.generic.backlinkTracker.settings.gscWordpressUrl"
+msgstr "WordPress Site URL"
+
+msgid "plugins.generic.backlinkTracker.settings.gscCredentials"
+msgstr "Google Service Account JSON"
+
+msgid "plugins.generic.backlinkTracker.settings.gscCredentialsHelp"
+msgstr "Paste the entire contents of your Google Service Account JSON file here. This file is downloaded from Google Cloud Console when you create service account credentials."
+
+msgid "plugins.generic.backlinkTracker.settings.otherAPIs"
+msgstr "Other API Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.bingApiKey"
+msgstr "Bing Webmaster API Key (Optional)"
+
+msgid "plugins.generic.backlinkTracker.settings.matchingSettings"
+msgstr "Article Matching Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.repoGalleyLabel"
+msgstr "Repository Galley Label"
+
+msgid "plugins.generic.backlinkTracker.settings.repoGalleyLabelHelp"
+msgstr "Enter the label used for repository/full-text galleys (e.g., REPO, Repository, Full Text). This helps the plugin match backlinks to both abstract and full-text URLs."
+
+msgid "plugins.generic.backlinkTracker.settings.blockedDomains"
+msgstr "Domain Filtering"
+
+msgid "plugins.generic.backlinkTracker.settings.blockedDomainsHelp"
+msgstr "Enter domains to exclude from backlink display (one per line). Example: spamsite.com"
+
+msgid "plugins.generic.backlinkTracker.settings.redirectMapping"
+msgstr "URL Redirect Mapping"
+
+msgid "plugins.generic.backlinkTracker.settings.redirectMappingHelp"
+msgstr "Upload a CSV file mapping old URLs to new URLs after domain migration. Format: old_url,new_url"
+
+msgid "plugins.generic.backlinkTracker.settings.useSiteWideData"
+msgstr "Use site-wide data (shared across all journals)"
+
+msgid "plugins.generic.backlinkTracker.settings.useSiteWideDataHelp"
+msgstr "Enable this to share backlinks and redirect mappings across all journals. When enabled, uploading data to any journal will update it for all journals."
+
+msgid "plugins.generic.backlinkTracker.settings.cacheSettings"
+msgstr "Cache Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.cacheByAge"
+msgstr "Cache Duration by Article Age"
+
+msgid "plugins.generic.backlinkTracker.settings.cacheNewArticles"
+msgstr "New Articles (0-3 months)"
+
+msgid "plugins.generic.backlinkTracker.settings.cacheRecentArticles"
+msgstr "Recent Articles (3-12 months)"
+
+msgid "plugins.generic.backlinkTracker.settings.cacheOldArticles"
+msgstr "Older Articles (12+ months)"
+
+msgid "plugins.generic.backlinkTracker.settings.days"
+msgstr "days"
+
+msgid "plugins.generic.backlinkTracker.settings.displaySettings"
+msgstr "Display Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.enableBackgroundRefresh"
+msgstr "Enable automatic background refresh"
+
+msgid "plugins.generic.backlinkTracker.settings.backgroundRefreshCount"
+msgstr "Articles to refresh daily"
+
+msgid "plugins.generic.backlinkTracker.settings.articlesPerDay"
+msgstr "articles per day"
+
+msgid "plugins.generic.backlinkTracker.settings.showToEditors"
+msgstr "Show backlinks to editors and authors"
+
+msgid "plugins.generic.backlinkTracker.backlinks"
+msgstr "Article Backlinks"
+
+msgid "plugins.generic.backlinkTracker.totalBacklinks"
+msgstr "Total Backlinks"
+
+msgid "plugins.generic.backlinkTracker.journalVersion"
+msgstr "Links to journal version"
+
+msgid "plugins.generic.backlinkTracker.repositoryVersion"
+msgstr "Links to repository version"
+
+msgid "plugins.generic.backlinkTracker.lastUpdated"
+msgstr "Last updated"
+
+msgid "plugins.generic.backlinkTracker.topLinkingSites"
+msgstr "Top Linking Sites"
+
+msgid "plugins.generic.backlinkTracker.clicks"
+msgstr "clicks"
+
+msgid "plugins.generic.backlinkTracker.andMore"
+msgstr "and {$count} more..."
+
+msgid "plugins.generic.backlinkTracker.loading"
+msgstr "Loading backlink data..."
+
+msgid "plugins.generic.backlinkTracker.noBacklinks"
+msgstr "No backlinks found yet. Check back later or try refreshing."
+
+msgid "plugins.generic.backlinkTracker.error"
+msgstr "Error loading backlinks. Please try again later."
+
+msgid "plugins.generic.backlinkTracker.refresh"
+msgstr "Refresh Backlinks"
+
+msgid "plugins.generic.backlinkTracker.refreshing"
+msgstr "Refreshing"
+
+msgid "plugins.generic.backlinkTracker.settings.apiProvider"
+msgstr "API Provider"
+
+msgid "plugins.generic.backlinkTracker.settings.apiProviderDescription"
+msgstr "Choose which backlink API to use for tracking"
+
+msgid "plugins.generic.backlinkTracker.settings.mozSettings"
+msgstr "Moz API Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.mozAccessId"
+msgstr "Moz Access ID"
+
+msgid "plugins.generic.backlinkTracker.settings.mozSecretKey"
+msgstr "Moz Secret Key"
+
+msgid "plugins.generic.backlinkTracker.settings.ahrefsSettings"
+msgstr "Ahrefs API Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.ahrefsApiKey"
+msgstr "Ahrefs API Key"
+
+msgid "plugins.generic.backlinkTracker.settings.semrushSettings"
+msgstr "SEMrush API Settings"
+
+msgid "plugins.generic.backlinkTracker.settings.semrushApiKey"
+msgstr "SEMrush API Key"
